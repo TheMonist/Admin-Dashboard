@@ -8,23 +8,27 @@
     <title>Admin Dashboard</title>
 </head>
 <body>
-    <nav>
+    <nav class="side-nav">
         <!--Side Bar-->
         <h3>Dashboard</h3>
-        <p>Home</p>
-        <p>Profile</p>
-        <p>Messages</p>
-        <p>History</p>
-        <p>Tasks</p>
-        <p>Communinities</p>
-        <p>Settings</p>
-        <p>Support</p>
-        <p>Privacy</p>
+        <ul>
+            <li>Home</li>
+            <li>Profile</li>
+            <li>Messages</li>
+            <li>History</li>
+            <li>Tasks</li>
+            <li>Communities</li>
+        </ul>
+        <ul>
+            <li>Settings</li>
+            <li>Support</li>
+            <li>Privacy</li>
+        </ul>
     </nav>
     <main>
-        <header>
-            <!--Search Bar-->
+        <header class="header">
             <button>Search</button>
+            <input type="search" name="search" id="search">
             <p>Roger Rosena</p>
             <p>Hi there,</p>
             <p>Username (@username)</p>
@@ -32,40 +36,40 @@
             <button>Upload</button>
             <button>Share</button>
         </header>
-        <section>
+        <section class="grid-container">
             <!--Center-->
             <h4>Your Projects</h4>
-            <div>
+            <div class="grid-items">
                 <p>Super Cool Project</p>
                 <p>Ipsum Lorem</p>
             </div>
-            <div>
+            <div class="grid-items">
                 <p>Less Cool Project</p>
                 <p>Ipsum Lorem</p>
             </div>
-            <div>
+            <div class="grid-items">
                 <p>Impossible App</p>
                 <p>Ipsum Lorem</p>
             </div>
-            <div>
+            <div class="grid-items">
                 <p>Easy Peasy App</p>
                 <p>Ipsum Lorem</p>
             </div>
-            <div>
+            <div class="grid-items">
                 <p>Blocker</p>
                 <p>Ipsum Lorem</p>
             </div>
-            <div>
+            <div class="grid-items">
                 <p>Money Maker</p>
                 <p>Ipsum Lorem</p>
             </div>
         </section>
-        <section>
+        <section class="announcement">
             <!--Right Top-->
             <h4>Annoucements</h4>
             <div></div>
         </section>
-        <section>
+        <section class="trending">
             <!--Right Bottom-->
             <h4>Trending</h4>
             <div></div>
