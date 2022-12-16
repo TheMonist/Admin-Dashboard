@@ -1,79 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Admin Dashboard</title>
-</head>
-<body>
-    <nav class="side-nav">
-        <!--Side Bar-->
-        <h3>Dashboard</h3>
-        <ul>
-            <li>Home</li>
-            <li>Profile</li>
-            <li>Messages</li>
-            <li>History</li>
-            <li>Tasks</li>
-            <li>Communities</li>
-        </ul>
-        <ul>
-            <li>Settings</li>
-            <li>Support</li>
-            <li>Privacy</li>
-        </ul>
-    </nav>
-    <main>
-        <header class="header">
-            <button>Search</button>
-            <input type="search" name="search" id="search">
-            <p>Roger Rosena</p>
-            <p>Hi there,</p>
-            <p>Username (@username)</p>
-            <button>New</button>
-            <button>Upload</button>
-            <button>Share</button>
-        </header>
-        <section class="grid-container">
-            <!--Center-->
-            <h4>Your Projects</h4>
-            <div class="grid-items">
-                <p>Super Cool Project</p>
-                <p>Ipsum Lorem</p>
-            </div>
-            <div class="grid-items">
-                <p>Less Cool Project</p>
-                <p>Ipsum Lorem</p>
-            </div>
-            <div class="grid-items">
-                <p>Impossible App</p>
-                <p>Ipsum Lorem</p>
-            </div>
-            <div class="grid-items">
-                <p>Easy Peasy App</p>
-                <p>Ipsum Lorem</p>
-            </div>
-            <div class="grid-items">
-                <p>Blocker</p>
-                <p>Ipsum Lorem</p>
-            </div>
-            <div class="grid-items">
-                <p>Money Maker</p>
-                <p>Ipsum Lorem</p>
-            </div>
-        </section>
-        <section class="announcement">
-            <!--Right Top-->
-            <h4>Annoucements</h4>
-            <div></div>
-        </section>
-        <section class="trending">
-            <!--Right Bottom-->
-            <h4>Trending</h4>
-            <div></div>
-        </section>
-    </main>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Admin Dashboard</title>
+    </head>
+    <body>
+        <div class="grid">
+            <nav class="sidebar">
+                <h3>Dashboard</h3>
+                <ul class="links-top">
+                    <li>Home</li>
+                    <li>Profile</li>
+                    <li> Contact Us</li>
+                </ul>
+                <ul class="links-bottom">
+                    <li>Settings</li>
+                    <li>Support</li>
+                    <li>Privacy</li>
+                </ul>
+            </nav>
+            <main>
+                <header class="header">
+                    <div class="topbar">
+                        <h2>Bardell University</h2>
+                        <input type="text" class="searchbar">
+                        <button>Search</button>
+                        <p>Welcome back, Morgan Oakley</p>
+                    </div>
+                    <div class="welcome"></div>
+                </header>
+                <section class="content">
+                    <div class="projects">
+                        <h4>Student Home</h4>
+                        <div class="cards">
+                            <div class="cards-left">
+                                <div class="card">
+                                    <h6>Title</h6>
+                                    <p>Ipsum Lorem</p>
+                                </div>
+                                <div class="card">
+                                    <h6>Title</h6>
+                                    <p>Ipsum Lorem</p>
+                                </div>
+                                <div class="card">
+                                    <h6>Title</h6>
+                                    <p>Ipsum Lorem</p>
+                                </div>
+                            </div>
+                            <div class="cards-right">
+                                <div class="card">
+                                    <h6>Title</h6>
+                                    <p>Ipsum Lorem</p>
+                                </div>
+                                <div class="card">
+                                    <h6>Title</h6>
+                                    <p>Ipsum Lorem</p>
+                                </div>
+                                <div class="card">
+                                    <h6>Title</h6>
+                                    <p>Ipsum Lorem</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="announcements">
+                        <div class="ann">
+                            <h4>Announcements</h4>
+                            <div class="ann-card">
+                                <div class="ann-text">
+                                    <h6>Food Donation Drive</h6>
+                                    <p>Ipsum Lorem</p>
+                                </div>
+                                <div class="divider"></div>
+                                <div class="ann-text">
+                                    <h6>Site Maintenence</h6>
+                                    <p>Ipsum Lorem</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="trends">
+                            <h4>Trending</h4>
+                            <div class="trend-card">
+                                <div class="trend-text">
+                                    <h6>Congradulations Men's Soccer</h6>
+                                    <p>Ipsum Lorem</p>
+                                </div>
+                                <div class="divider"></div>
+                                <div class="trend-text">
+                                    <h6>Final Move-Out Dates</h6>
+                                    <p>Ipsum Lorem</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+    </body>
 </html>
